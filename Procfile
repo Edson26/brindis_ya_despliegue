@@ -1,1 +1,1 @@
-web: python manage.py collectstatic && gunicorn djangocrud.wsgi
+web: python manage.py collectstatic --noinput && gunicorn djangocrud.wsgi
