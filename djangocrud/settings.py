@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost','brindisyadespliegue-production.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = ['http://*','https://brindisyadespliegue-production.up.railway.app']
 
 # Application definition
 
